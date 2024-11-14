@@ -22,7 +22,7 @@ public class Controller {
         return miServicio.procesarParametro(parametro);
     }
 
-    @GetMapping("saludo-personalidado")
+    @GetMapping("saludo-personalizado")
     public String saludoPersonalizado(@RequestParam String nombre){
         return miServicio.saludar(nombre);
     }
